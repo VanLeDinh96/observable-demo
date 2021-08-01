@@ -8,8 +8,6 @@ import { of } from 'rxjs/observable/of';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name = 'Angular 5';
-
   private init$: Observable<any>;
 
   public ngOnInit() {
